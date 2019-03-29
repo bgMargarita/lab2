@@ -8,4 +8,5 @@ css/materialize.css
 js/materialize.js
 css
 js
-/js
+materialize
+.gitignore
