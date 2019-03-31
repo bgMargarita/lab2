@@ -1,10 +1,7 @@
 <!DOCTYPE html>
   <html>
     <style>
-       container {
-                display: flex;
-                flex: 1;
-            }
+     
       
     </style>
     <head>
@@ -15,24 +12,32 @@
     
   
 
-<div class="container">
-<nav class="nav-extended  cyan darken-1">
+<div class="container row">
+<nav class="nav-extended  cyan darken-1 ">
   <div class="nav-wrapper">
-    <a href="#" class="brand-logo">ДК им. Ленсовета</a>
+   <div class=" "> <a href="#!" class="brand-logo right  ">ДК имени Ленсовета</a></div>
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
       <li><a class =" light-blue accent-4">Афиша</a></li>
       <li><a href="">Другое</a></li>
       <li><a href="">Еще Другое</a></li>
     </ul>
   </div>
 </nav>
+<br>
 
 
 
-<div class="section row  light-blue lighten-4 m12 "><h4 class=" center">Спектакль «Мастер и Маргарита» (Театр им. М.А.Булгакова)</h4>
 
-    <div class=""><img alt="" src="Xac706bXibZIlHcdCYiCfTDFkUEFN_am.jpg">
+<div class="section light-blue lighten-4   ">
+  <h4 class=" center s12 m4 l8">Спектакль «Мастер и Маргарита» (Театр им. М.А.Булгакова)</h4>
+  <br>
+    <div class="row">
+      <div class="col l6 m6 s12 center">
+      <img class="responsive-img " src="Xac706bXibZIlHcdCYiCfTDFkUEFN_am.jpg">
+    </div>
+
+    <div class="col l6 m6 s12">
      <p>Описание
         Трагикомические фантазии по мотивам романа М.А.Булгакова
         
@@ -40,15 +45,17 @@
         
         Этот проект построен по принципу синтеза театрального искусства и элементов шоу: бешеный темпо-ритм, сменяющиеся мизансцены по принципу кинокадра, яркая визуальная форма, оригинальный сценарий сделали этот проект одним из самых модных и посещаемых проектов Москвы, в течение вот уже 20-ти лет Сергей Алдонин включил в инсценировку фрагменты из черновиков романа, что, по его мнению, позволяет акцентировать главные темы, волновавшие Булгакова.
         
-        В постановке много музыки, пантомимы и трюков – словом, всего того, что обычно называют «театром Марка Захарова»</p></dib>
+        В постановке много музыки, пантомимы и трюков – словом, всего того, что обычно называют «театром Марка Захарова»
+      </p>
+    </div>
+      
       </div>
       <div class="center-align">
           <button class="btn-large waves-effect waves-light teal accent-4 "  name="action">Купить билет
               <i class="material-icons right">arrow_forward</i>
           </button>
       </div>
-      <div>
-      </div>
+
 </div>
 
 <h4 class="teal accent-4 white-text center">СОБЫТИЯ</h4>
@@ -86,26 +93,59 @@
         </div>
     </div>
 </div>
-<footer class="page-footer cyan darken-1 ">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12 m6">
-          <h5 class="white-text">Адрес</h5>
-          <p class="grey-text text-lighten-4">ст. метро Петроградская</p>
-        </div>
-        <div class="col s12 l3 m4">
-            <h6 class="white-text">Номер телефона для обратной связи</h6>
-            <div class="mdc-text-field">
-                <input type="text" class="mdc-text-field__input">
+<h2 class="cyan darken-1  white-text">Подписка на новости</h2>
+    <div class="section">
+        <div>
+            <h5 class="center">Подпишитесь на нашу рассылку и получайте новости о новых мероприятиях
+                первыми!</h5>
+            <div class="row center">
+                <div class="card col s12">
+                    <div class="card-content">
+                        <form>
+                            <div class="row">
+                                <div class="input-field col s12 l4 offset-l1">
+                                    <input id="name" type="text">
+                                    <label for="name">Ваше имя</label>
+                                </div>
+                                <div class="input-field col s12 l5 offset-l2">
+                                    <input id="email" type="text">
+                                    <label for="email">Ваш Email</label>
+                                </div>
+                            </div>
+                            <div class="row center">
+                                <a class="btn cyan darken-1 ">Подписаться</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
+            <br>
         </div>
-    <div class="footer-copyright">
-      <div class="container">
-      © 2019 ИТМО
-      </div>
     </div>
-  </footer>
-    </container>
+
+    <hr>
+    <footer class=" cyan darken-1 page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s6">
+              <h5 class="white-text">Адрес</h5>
+              <p class="grey-text text-lighten-4">ст метро Петроградская</p>
+            </div>
+
+            <div class="col l4 offset-l2 s6">
+              <h5 class="white-text">Наш номер телефона</h5>
+              <p class="grey-text text-lighten-4">8 800 91 23 45</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <div class="container">
+          © 2014 Copyright Text
+          </div>
+        </div>
+      </footer>
     
     </body>
   </html>
